@@ -18,3 +18,9 @@ android {
         }
     }
 }
+
+dependencies {
+    compile project(':library1')
+    compile project(':library2')
+}
+
